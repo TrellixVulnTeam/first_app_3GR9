@@ -1,0 +1,33 @@
+
+https://www.anaconda.com/products/individual#Downloads
+
+conda
+
+python -V
+Python 3.8.5
+
+conda create -n test python=3.8
+
+conda create -n first_app python=3.8
+
+cd C:\Users\AlbertoVazquez\anaconda3\envs\first_app
+
+activate first_app
+
+pip install django
+
+django-admin startproject 
+
+cd C:\Users\AlbertoVazquez\anaconda3\envs\first_app\django_app
+
+python manage.py startapp django_app
+
+python manage.py runserver
+
+
+
+cd C:\Users\AlbertoVazquez\anaconda3\envs\first_app\django_app
+
+activate first_app
+
+python manage.py runserver
